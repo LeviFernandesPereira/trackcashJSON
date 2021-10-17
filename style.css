@@ -1,0 +1,93 @@
+table {
+    width: 50vw;
+    background: #1A1A1A;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+td {
+    border: 2px solid #0F0F0F;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+th{
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cent {
+    align-items: center;
+    display: flex;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.top {
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    background-color: #0F0F0F;
+    color: white;
+    font-size: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    border: 3px #0F0F0F;
+    left: 5%;
+}
+
+.fim {
+    width: 100vw;
+    height: 450px;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.textpag {
+    margin: 0 10px;
+    color: white;
+}
+
+.cabe {
+    border: 2px solid #0F0F0F;
+    padding: 10px;
+    text-align: center;
+    font-size: 21px;
+}
+
+body{
+    background-color: #262626;
+}
+
+.alert {
+    background-color: #6F1717;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    background-color: #0F0F0F;
+    color: white;
+    padding: 10px;
+
+    animation: all 0.5s;
+}
+
+button:hover {
+    background-color: #212121;
+}
+
+button:active {
+    background-color: #0D0D0D;
+}
